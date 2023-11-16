@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badstuerock</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <script src="nav.js" defer></script>
+</head>
+<body>
+
+<!--Menu bar-->
+    <div class="wrapper">
+        <div class="logo"><a href="index.html"><img src="img/B.png" alt="B_logo"></a></div>
+        <button class="nav_toggle" aria-controls="menu" aria-expanded="false"></button>
+        <ul id="menu" class="menu" data-visible="false">
+            <li class="nav_link"><a href="releases.html">Releases</a></li>
+            <li class="nav_link beginners_guide"><a href="#">Beginners guide</a>
+                <ul class="dropdown">
+                    <li><a href="tom_side.html">Kend din pladespiller</a></li>
+                    <li><a href="rengøring.html">Rengøring</a></li>
+                    <li><a href="tom_side.html">Vedligeholdelse</a></li>
+                </ul>
+            </li>
+            <li class="nav_link i_butikken"><a href="#">I butikken</a>
+                <ul class="dropdown">
+                    <li><a href="tom_side.html">Nyt og brugt</a></li>
+                    <li><a href="tom_side.html">CD'er</a></li>
+                    <li><a href="tom_side.html">LP'er</a></li>
+                    <li><a href="tom_side.html">Kasettebånd</a></li>
+                    <li><a href="tom_side.html">Plakater og merch</a></li>
+                </ul>
+            </li>
+            <li class="nav_link"><a href="events.html">Events</a></li>
+            <li class="nav_link om_os"><a href="#">Om os</a>
+                <ul class="dropdown">
+                    <li><a href="tom_side.html">Kontakt</a></li>
+                    <li><a href="vores_historie.html">Vores historie</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!--Tom side-->
+
+    <div class="tom_side_container">
+        <h2>Du er endt på en tom side</h2>
+        <div class="pladespiller">
+            <img class="tom_side_logo" src="img/B.png" alt="logo">
+            <img class="tom_side_pladespiller" src="img/record-player.png" alt="pladespiller">
+        </div>
+        <button onclick="history.back()" class="back_btn">&larr; Gå tilbage</button>
+
+        <audio autoplay audio.volume="0.2" src="Rick Astley - Never Gonna Give You Up (Official Music Video).mp3"></audio>
+    </div>
+
+</body>
+</html>

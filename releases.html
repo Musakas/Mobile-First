@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Releases</title>
+  <link rel="stylesheet" href="/css/releases.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <script src="nav.js" defer></script>
+
+</head>
+
+<body>
+<!--Menu bar-->
+<div class="wrapper">
+  <div class="logo"><a href="index.html"><img src="img/B.png" alt="B_logo"></a></div>
+  <button class="nav_toggle" aria-controls="menu" aria-expanded="false"></button>
+  <ul id="menu" class="menu" data-visible="false">
+      <li class="nav_link"><a href="releases.html">Releases</a></li>
+      <li class="nav_link beginners_guide"><a href="#">Beginners guide</a>
+          <ul class="dropdown">
+              <li><a href="tom_side.html">Kend din pladespiller</a></li>
+              <li><a href="rengøring.html">Rengøring</a></li>
+              <li><a href="tom_side.html">Vedligeholdelse</a></li>
+          </ul>
+      </li>
+      <li class="nav_link i_butikken"><a href="#">I butikken</a>
+          <ul class="dropdown">
+              <li><a href="tom_side.html">Nyt og brugt</a></li>
+              <li><a href="tom_side.html">CD'er</a></li>
+              <li><a href="tom_side.html">LP'er</a></li>
+              <li><a href="tom_side.html">Kasettebånd</a></li>
+              <li><a href="tom_side.html">Plakater og merch</a></li>
+          </ul>
+      </li>
+      <li class="nav_link"><a href="events.html">Events</a></li>
+      <li class="nav_link om_os"><a href="#">Om os</a>
+          <ul class="dropdown">
+              <li><a href="tom_side.html">Kontakt</a></li>
+              <li><a href="vores_historie.html">Vores historie</a></li>
+          </ul>
+      </li>
+  </ul>
+</div>
+
+<!-- Releases kode-->
+
+  <header>
+    <h1 class="headline">Nyeste Releases</h1>
+  </header>
+
+  <main class="mobiletablet">
+    <div class="releasescontainer" id="container">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <alt=""><img src="img/vinyl2.png" alt="" class="vinyl1">
+          </div>
+          <div class="swiper-slide">
+            <alt=""><img src="img/vinyl2.png" alt="" class="vinyl2">
+          </div>
+          <div class="swiper-slide">
+            <alt=""><img src="img/vinyl2.png" alt="" class="vinyl3">
+          </div>
+          <div class="swiper-slide">
+            <alt=""><img src="img/vinyl2.png" alt="" class="vinyl4">
+          </div>
+
+        </div>
+
+        <div>
+          <img src="img/suspekt.jpg" alt="" class="albumcover" id="album">
+        </div>
+
+        <div class="album_description">
+          <h2 id="kunstner">Suspekt</h2>
+          <h2  id="albumtitel">Agent Aliens</h2>
+
+        </div>
+
+        <!-- navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <!-- desktop -->
+
+  <div class="releasesdesktop">
+    <!-- række 1 -->
+
+    <div class="grid-container">
+      <div class="grid-item1">
+        <a href=""><img src="img/suspekt.jpg" alt="" class="gridimage"></a>
+        <h6>Suspekt</h6>
+        <h6>Agent Aliens</h6>
+      </div>
+      <div class="grid-item2">
+        <a href=""><img src="img/tyler.webp" alt="" class="gridimage"></a>
+        <h6>Tyler The Creator</h6>
+        <h6>Flowerboy</h6>
+      </div>
+      <div class="grid-item3">
+        <a href=""><img src="img/igor.webp" alt="" class="gridimage"></a>
+        <h6>Tyler The Creator</h6>
+        <h6>Igor</h6>
+      </div>
+    </div>
+
+    <!-- række 2 -->
+
+    <div class="grid-container">
+      <div class="grid-item4">
+        <a href=""><img src="img/glass.webp" alt="" class="gridimage"></a>
+        <h6>Glass Animals</h6>
+        <h6>Dreamland</h6>
+      </div>
+      <div class="grid-item5">
+        <a href=""><img src="img/starboy.png" alt="" class="gridimage"></a>
+        <h6>The Weeknd</h6>
+        <h6>Starboy</h6>
+      </div>
+      <div class="grid-item6">
+        <a href=""><img src="img/frank.jpg" alt="" class="gridimage"></a>
+        <h6>Frank Ocean</h6>
+        <h6>Blond</h6>
+      </div>
+    </div>
+
+    <!-- række 3 -->
+
+    <div class="grid-container">
+      <div class="grid-item7">
+        <a href=""><img src="img/tame.jpeg" alt="" class="gridimage"></a>
+        <h6>Tame Impala</h6>
+        <h6>Currents</h6>
+      </div>
+      <div class="grid-item8">
+        <a href=""><img src="img/nirvana.webp" alt="" class="gridimage"></a>
+        <h6>Nirvana</h6>
+        <h6>Nevermind</h6>
+      </div>
+      <div class="grid-item9">
+        <a href=""><img src="img/phlake.jpg" alt="" class="gridimage"></a>
+        <h6>Phlake</h6>
+        <h6>Slush Hours</h6>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      loop: true,
+
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    });
+
+    swiper.on('transitionEnd', function (e) {
+
+      if (this.realIndex == 0) {
+        document.getElementById("container").style.backgroundColor = '#CBF44D';
+        document.getElementById("album").src = 'img/suspekt.jpg';
+        document.getElementById("kunstner").innerText = 'Suspekt';
+        document.getElementById("albumtitel").innerText = 'Agent Aliens';
+      }
+
+      if (this.realIndex == 1) {
+        document.getElementById("container").style.backgroundColor = '#6B9668';
+        document.getElementById("album").src = 'img/tyler.webp';
+        document.getElementById("kunstner").innerText = 'Tyler The Creator';
+        document.getElementById("albumtitel").innerText = 'Flowerboy';
+      }
+
+      if (this.realIndex == 2) {
+        document.getElementById("container").style.backgroundColor = '#D4D1D1';
+        document.getElementById("album").src = 'img/igor.webp';
+        document.getElementById("kunstner").innerText = 'Tyler the Creator';
+        document.getElementById("albumtitel").innerText = 'Igor';
+      }
+
+      if (this.realIndex == 3) {
+        document.getElementById("container").style.backgroundColor = '#EE5083';
+        document.getElementById("album").src = 'img/tame.jpeg';
+        document.getElementById("kunstner").innerText = 'Tame Impala';
+        document.getElementById("albumtitel").innerText = 'Currents';
+      }
+
+    });
+
+  </script>
+
+  <!--FOOTER CODE-->
+  <footer class="footer-container">
+    <div class="footerbox-1">
+        <a href="tom_side.html" class="footer-btn">Nyhedsbrev</a>
+    </div>
+    <div class="footerbox-2">
+        <p>Badstuerock
+            <br>Telefon: +(45) 86197674
+            <br>E-mail: kontakt@badstuerock.dk
+            <br>Badstuegade 22
+            <br>8000 Aarhus C, Denmark
+        </p>
+    </div>
+    <div class="footerbox-3">
+        <a target="_blank" href="https://www.facebook.com/badstuerock/?locale=da_DK"><img
+                src="img/facebook-icon.png" alt="facebook"></a>
+        <a target="_blank" href="https://www.instagram.com/badstuerock/"><img src="img/instagram-icon.png"
+                alt="instagram"></a>
+        <a target="_blank" href="https://www.discogs.com/seller/Rushrecs/profile"><img src="img/discogs-icon.png"
+                alt="discogs"></a>
+    </div>
+</footer>
+
+
+
+</body>
+
+</html>
